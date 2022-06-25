@@ -1,8 +1,9 @@
 import React, { FC } from "react";
+import '../index.css'
 
 const BlogPage: FC = () => {
     return (
-        <div>
+        <div className="page">
             BlogPage
         </div>
     )

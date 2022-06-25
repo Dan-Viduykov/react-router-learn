@@ -1,8 +1,9 @@
 import React, { FC } from "react";
+import '../index.css'
 
 const NotFoundPage: FC = () => {
     return (
-        <div>
+        <div className="page">
             NotFoundPage
         </div>
     )
