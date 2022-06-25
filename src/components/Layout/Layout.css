@@ -1,0 +1,46 @@
+.layout {
+    background-color: #000;
+    height: 100vh;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px 40px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header a.active-link {
+    color: yellow;
+    font-weight: 700;
+}
+
+.main {
+    background-color: pink;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.footer {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
