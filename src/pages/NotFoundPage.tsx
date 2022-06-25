@@ -1,11 +1,11 @@
 import React, { FC } from "react";
 
-const App: FC = () => {
+const NotFoundPage: FC = () => {
     return (
         <div>
-            App
+            NotFoundPage
         </div>
     )
 }
 
-export default App
+export default NotFoundPage
