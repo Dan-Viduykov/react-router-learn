@@ -1,0 +1,19 @@
+.posts {
+    padding: 20px;
+}
+
+.posts__link {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.posts__link:visited {
+    color: green;
+}
+
+.posts__link:hover {
+    text-decoration: underline;
+}
